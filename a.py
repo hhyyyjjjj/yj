@@ -14,15 +14,14 @@ import streamlit as st
 
 # ASCII 아트를 변수에 저장
 unicorn = """
-  / / \__/ \ 
- \/| /\/\ |\/
-  _||o o ||_
- /. .\__/. .\ 
-/ . .(__) . .\ 
-\ .  /__\  . /
- \__/\__/\__/
+ //^ ^\ 
+/ 0 0 \ 
+V\ Y /V
+ / - \ 
+/    |
+V__) ||
 """
 
 # Streamlit 앱으로 출력
-st.title("dog!")
+st.title("BOW!")
 st.text(unicorn)
